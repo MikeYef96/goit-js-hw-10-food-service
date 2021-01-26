@@ -19,8 +19,11 @@ refs.menu.insertAdjacentHTML('afterbegin', menuItem);
 
 refs.body.classList.add(localStorage.getItem('theme'));
 
-if (localStorage.getItem('theme') === Theme.DARK) refs.switch.checked = true;
-else refs.body.setAttribute('class', 'light-theme');
+if (localStorage.getItem('theme') === Theme.DARK) {
+  refs.switch.checked = true;
+} else {
+  refs.body.setAttribute('class', 'light-theme');
+}
 
 refs.switch.addEventListener('click', themeChanger);
 
