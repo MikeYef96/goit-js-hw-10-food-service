@@ -13,7 +13,7 @@
     "url": "git+https://github.com/MikeYef96/goit-js-hw-10-food-service.git"
   },
   "author": "Mike Yef <mike.yef@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/MikeYef96/goit-js-hw-10-food-service"
   },
@@ -52,5 +52,6 @@
     "material-design-icons": "^3.0.1",
     "pnotify": "^4.0.1"
   },
+  "keywords": [],
   "description": ""
 }
